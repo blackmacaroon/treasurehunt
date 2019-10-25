@@ -126,17 +126,11 @@ useEffect(() => {
             console.log("we've seen this room before")
             return true;
           }
-          
         }
-
         console.log("never seen this room before")
         return false;
-        
-                
-        
           }
           console.log("no room data to check")
-    
   }
   
   const saveARoom = async (roomData) => {
@@ -577,6 +571,8 @@ const getCoinBalance = () => {
           changeName={changeName}
           getStatus={getStatus}
           getCoinBalance={getCoinBalance}
+          mine={mine}
+          getLastProof={getLastProof}
         />
       </div>
     </div>
