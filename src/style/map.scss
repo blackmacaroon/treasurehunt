@@ -1,29 +1,40 @@
-// map styles
-.mapper-wrapper{
-
-}
-.map-wrap {
+.mapper-wrapper {
     display: flex;
-    flex-wrap: wrap;
-    height: 500px;
-    width: 500px;
-    background: $treasurePrimary;
-    color: $treasureWhite;
+    justify-content: center;
+
+    .map-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        height: 500px;
+        width: 500px;
+        background: $treasurePrimary;
+        color: $treasureWhite;
+        border: 1px solid $treasureGray;
+        box-sizing: border-box;
+
+        .me {
+            width: 5px;
+            height: 5px;
+            background: $treasureWhite;
+            box-sizing: border-box;
+
+        }
+        .blah{
+            width: 5px;
+            height: 5px;
+            background: $treasurePrimary;
+            box-sizing: border-box;
+        }
+
+        .room-wrap{
+            position: relative;
+            width: 5px;
+            height: 5px;
+            background: $treasureGray;
+            box-sizing: border-box;
+        }
 
 
-    .blah{
-        width: 5px;
-        height: 5px;
-        background: gray;
+        
     }
-
-    .room-wrap{
-        position: relative;
-        width: 5px;
-        height: 5px;
-        background: blue;
-    }
-
-
-    
 }
