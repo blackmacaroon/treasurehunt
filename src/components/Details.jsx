@@ -1,13 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-
-// Tie in state from response
-// {
-// 	"room_id": 10,
-// 	"title": "A Dark Room",
-// 	"description": "You cannot see anything.",
-// 	"coordinates": "(60,61)",
-// }
+import React from 'react';
 
 const Details = (props) => {
 		return (
